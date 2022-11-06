@@ -1,5 +1,3 @@
-using UnityEngine;
-using System;
 using System.Collections.Generic;
 
 public static class ListExtensions
@@ -13,6 +11,6 @@ public static class ListExtensions
             list.RemoveAt(randomIndex);
             return randomElement;
         }
-        else throw new Exception("List is empty!");
+        else return default;
     }
 }

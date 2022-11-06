@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cea6737efc493f49a19be0cf414d461, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
-  minimalWordLength: 4
-  attemptsAmount: 0
+  minimalWordLength: 3
+  attemptsAmount: 10

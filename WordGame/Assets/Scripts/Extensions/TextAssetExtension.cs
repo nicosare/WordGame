@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public static class TextAssetExtension
 {
-    public static List<string> GetWordsWithLengthNotLessThan(this TextAsset text, int minimalWordLength)
+    public static List<string> GetWordNotLessThan(this TextAsset text, int minimalWordLength)
     {
         var txt = text.text;
         var regex = new Regex("[^a-zA-Z]");
